@@ -1,107 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Source+Sans+Pro:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i');
 
 $heading-font: 'Lato', sans-serif;
-$content-font: 'Source Sans Pro', sans-serif;
 
-$dark-primary: #0097A7;
-$light-primary: #B2EBF2;
-$primary-color: #00BCD4;
-$accent-color: #FFC107;
-
+$dark-primary: #0097a7;
+$light-primary: #b2ebf2;
+$primary-color: #00bcd4;
+$accent-color: #ffc107;
 $primary-text: #212121;
 $secondary-text: #757575;
-$icon-color: #FFFFFF;
-$divider-color: #BDBDBD;
+$icon-color: #fff;
+$divider-color: #bdbdbd;
 
-
-body {
-	font-family: $content-font;
-	font-size: 20px;
-
-}
-@media (min-width: 992px) {
-	body {
-
-}
-header.masthead {
-	background: url('../images/header1.jpg') no-repeat center center scroll;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-}
-header.masthead>.overlay {
-	padding: 5rem 0;
-	text-align: center;
-	background: rgba(0, 0, 0, 0.6);
-}
-@media (min-width: 992px) {
-	header.masthead>.overlay {
-		padding: 10rem 0;
-	}
-}
-.social-media-icons {}
-#sm-icon1 {
-	padding-right: 5px;
-	color: white;
-}
-#sm-icon2 {
-	padding-right: 5px;
-	color: white;
-}
-#sm-icon3 {
-	padding-right: 10px;
-	color: white;
-}
-h1 {
-	font-family: 'Lato', sans-serif;
-	color: white;
-	font-weight: 700;
-	font-size: 70px;
-}
-h2 {
-	font-family: 'Lato', sans-serif;
-	font-weight: 700;
-	color: #0097A7;
-	font-size: 42px;
-}
-.navbar {
-	margin-bottom: 0;
-}
-.jumbotron {
-	padding-top: 6rem;
-	padding-bottom: 6rem;
-	margin-bottom: 0;
-	background-color: #fff;
-}
-.jumbotron p:last-child {
-	margin-bottom: 0;
-}
-.jumbotron-heading {
-	font-weight: 300;
-	color: #00BCD4;
-	font-family: 'Lato', sans-serif;
-}
-.jumbotron .container {
-	max-width: 40rem;
-}
-.album {
-	min-height: 50rem;
-	/* Can be removed; just added for demo purposes */
-	padding-top: 3rem;
-	padding-bottom: 3rem;
-	background-color: #f7f7f7;
-}
-.card {
-	float: left;
-	width: 33.333%;
-	padding: .75rem;
-	margin-bottom: 2rem;
-	border: 0;
-}
-.card>img {
-	margin-bottom: .75rem;
-}
-.card-text {
-	font-size: 85%;
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
 }
