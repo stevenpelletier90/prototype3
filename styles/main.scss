@@ -1,57 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Source+Sans+Pro:400,400i,700,700i');
 
-$heading-font:;
-$content-font:;
+$heading-font: 'Lato', sans-serif;
+$content-font: 'Source Sans Pro', sans-serif;
 
+$dark-primary: #0097A7;
+$light-primary: #B2EBF2;
+$primary-color: #00BCD4;
 $accent-color: #FFC107;
 
+$primary-text: #212121;
+$secondary-text: #757575;
+$icon-color: #FFFFFF;
+$divider-color: #BDBDBD;
+
+
 body {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: $content-font;
 	font-size: 20px;
 
-
-.navbar-light .navbar-nav .show, .nav-link, .navbar-light .navbar-nav .active, .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
-		color: white;
-		font-family: 'Lato', sans-serif;
-		font-weight: 700;
-		font-size: 14px;
-	}
-
-
-	/* Nav Link Colors */
-	.navbar-light .navbar-nav .nav-link {
-		color: #B2EBF2;
-	}
-	/* Hover State */
-	.navbar-light .navbar-nav .nav-link:hover {
-		color: #212121;
-	}
-	/* Active State */
-	.navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
-		color: #FFC107;
-	}
 }
 @media (min-width: 992px) {
 	body {
-		.navbar-light .navbar-nav .show, .nav-link, .navbar-light .navbar-nav .active, .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
-			color: white;
-			font-family: 'Lato', sans-serif;
-			font-weight: 700;
-			font-size: 24px;
-		}
-		/* Nav Link Colors */
-		.navbar-light .navbar-nav .nav-link {
-			color: #B2EBF2;
-		}
-		/* Hover State */
-		.navbar-light .navbar-nav .nav-link:hover {
-			color: #212121;
-		}
-		/* Active State */
-		.navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
-			color: $accent-color;
-		}
-	}
+
 }
 header.masthead {
 	background: url('../images/header1.jpg') no-repeat center center scroll;
