@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i');
+
+
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-h1, h2 {
+h1, h2, h3, h4, h5 {
   font-family: 'Lato', sans-serif;
+	font-color: #b2bcd4;
 }
 
 .carousel-item {
