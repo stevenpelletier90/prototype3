@@ -11,18 +11,38 @@ h1 {
 
 h2 {
   font-family: 'Lato', sans-serif;
-  color: #fff;
+  color: #0097a7;
   font-weight: 700;
   font-style: none;
 }
 
-h3 {}
+h3 {
+  font-family: 'Lato', sans-serif;
+  color: #0097a7;
+  font-weight: 700;
+  font-style: none;
+}
 
-h4 {}
+h4 {
+  font-family: 'Lato', sans-serif;
+  color: #0097a7;
+  font-weight: 700;
+  font-style: none;
+}
 
-h5 {}
+h5 {
+  font-family: 'Lato', sans-serif;
+  color: #0097a7;
+  font-weight: 700;
+  font-style: none;
+}
 
-h6 {}
+h6 {
+  font-family: 'Lato', sans-serif;
+  color: #0097a7;
+  font-weight: 700;
+  font-style: none;
+}
 
 p {
   font-family: 'Source Sans Pro', sans-serif;
@@ -39,9 +59,6 @@ p {
   background-size: cover;
 }
 
-section {
-  padding: 150px 0;
-}
 
 
 /*NORMAL*/
@@ -87,14 +104,6 @@ section {
   transition: .5s ease-in;
 }
 
-.portfolio-item {
-  margin-bottom: 30px;
-}
-
-.pagination {
-  margin-bottom: 30px;
-}
-
 .footer-items {
   color: #fff;
   font-weight: 300;
@@ -126,4 +135,12 @@ section {
   -o-box-shadow: 0 8px 6px -6px;
   -ms-box-shadow: 0 8px 6px -6px;
   box-shadow: 0 8px 6px -6px;
+}
+
+#ad2 {
+  float: right;
+}
+
+#ad1 {
+
 }
