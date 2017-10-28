@@ -1,43 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i');
-
-
-
-body {
-  font-family: 'Source Sans Pro', sans-serif;
-}
+body {}
 
 h1 {
   font-family: 'Lato', sans-serif;
-	color: #00bcd4;
-	font-weight: 700;
-	font-style: none;
-  font-variant: small-caps;
+  color: #0097a7;
+  font-weight: 700;
+  font-style: none;
 }
 
 h2 {
-
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  font-weight: 700;
+  font-style: none;
 }
 
-h3 {
+h3 {}
 
-}
+h4 {}
 
-h4 {
+h5 {}
 
-}
-
-h5 {
-
-}
-
-h6 {
-
-}
+h6 {}
 
 p {
-
+  font-family: 'Source Sans Pro', sans-serif;
 }
+
 .carousel-item {
   height: 65vh;
   min-height: 300px;
@@ -45,7 +35,7 @@ p {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-	-ms-background-size: cover;
+  -ms-background-size: cover;
   background-size: cover;
 }
 
@@ -68,11 +58,11 @@ section {
 /*HOVER*/
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: grey;
+  color: #0097a7;
   -webkit-transition: .5s ease-out;
   -moz-transition: .5s ease-out;
   -o-transition: .5s ease-out;
-	-ms-transition: .5s ease-out;
+  -ms-transition: .5s ease-out;
   transition: .5s ease-out;
 }
 
@@ -89,11 +79,11 @@ section {
 }
 
 .sm-icon:hover {
-  color: grey;
+  color: #ffc107;
   -webkit-transition: .5s ease-in;
   -moz-transition: .5s ease-in;
   -o-transition: .5s ease-in;
-	-ms-transition: .5s ease-in;
+  -ms-transition: .5s ease-in;
   transition: .5s ease-in;
 }
 
@@ -111,16 +101,29 @@ section {
   font-style: italic;
 }
 
-
 #myId {
   -webkit-animation-duration: 2s;
   -webkit-animation-delay: 1s;
-	-moz-animation-duration: 2s;
+  -moz-animation-duration: 2s;
   -moz-animation-delay: 1s;
-	-o-animation-duration: 2s;
+  -o-animation-duration: 2s;
   -o-animation-delay: 1s;
-	-ms-animation-duration: 2s;
+  -ms-animation-duration: 2s;
   -ms-animation-delay: 1s;
-	animation-duration: 2s;
+  animation-duration: 2s;
   animation-delay: 1s;
+}
+
+.slider-captions {
+  color: #ffc107;
+  margin-bottom: 200px;
+}
+
+#nav {
+  z-index: 1;
+  -webkit-box-shadow: 0 8px 6px -6px;
+  -moz-box-shadow: 0 8px 6px -6px;
+  -o-box-shadow: 0 8px 6px -6px;
+  -ms-box-shadow: 0 8px 6px -6px;
+  box-shadow: 0 8px 6px -6px;
 }
