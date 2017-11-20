@@ -1,52 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta content="" name="description">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <title>SeaAngels Green Beach Clean - Home Page</title>
-    <link rel="stylesheet" href="styles/bootstrap.min.css">
-    <link rel="stylesheet" href="styles/font-awesome.min.css">
-    <link rel="stylesheet" href="styles/animate.min.css">
-    <link rel="stylesheet" href="styles/main.css">
-</head>
+<?php include("includes/header.php"); ?>
+<?php include("includes/navbar.php"); ?>
 
-<body>
-    <nav class="navbar navbar-expand-md navbar-light" id="nav" style="background-color: #00bcd4">
-        <a class="navbar-brand" href="index.html"><img alt="SeaAngels Green Beach Clean Logo" class="d-inline-block align-top animated fadeInLeft" height="75" src="images/logo.png"></a>
-        <button aria-controls="expanded_nav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#expanded_nav" data-toggle="collapse" type="button">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="expanded_nav">
-            <ul class="navbar-nav mr-auto animated fadeIn" id="nav_anim">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="schedule.html">Schedule</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="education.html">Education</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="wildlife.html">Wildlife</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
-                </li>
-            </ul>
-            <div class="nav-items-right animated fadeInRight">
-                <a href="https://www.facebook.com/SeaAngelsBeachClean/"><i aria-hidden="true" class="fa fa-facebook-official fa-2x sm-icon"></i></a>
-                <a href="https://twitter.com/"><i aria-hidden="true" class="fa fa-twitter fa-2x sm-icon"></i></a>
-                <a href="https://www.instagram.com/"><i aria-hidden="true" class="fa fa-instagram fa-2x sm-icon"></i></a>
-                <a href="#" class="btn btn-info mx-5 mb-2" role="button">Donate</a>
-            </div>
-        </div>
-    </nav>
+
     <header>
         <div id="carouselHome" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -81,13 +37,13 @@
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselHome" role="button" data-slide="prev">
-	          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-	          <span class="sr-only">Previous</span>
-	        </a>
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
             <a class="carousel-control-next" href="#carouselHome" role="button" data-slide="next">
-	          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-	          <span class="sr-only">Next</span>
-	        </a>
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
         </div>
     </header>
     <div class="container">
@@ -172,25 +128,5 @@
             <p>This is regular text</p>
         </div>
     </section>
-    <footer class="py-5" style="background-color: #00bcd4">
-        <div class="container">
-            <div class="row px-">
-                <div class="col-sm-4 text-center">
-                    <p class="footer-items">Copyright &copy; SeaAngels Green Beach Clean 2017</p>
-                </div>
-                <div class="col-sm-4 text-center">
-                    <p class="footer-items">Copyright &copy; SeaAngels Green Beach Clean 2017</p>
-                </div>
-                <div class="col-sm-4 text-center">
-                    <p class="footer-items">Copyright &copy; SeaAngels Green Beach Clean 2017</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script src="scripts/jquery.min.js"></script>
-    <script src="scripts/popper.min.js"></script>
-    <script src="scripts/bootstrap.min.js"></script>
-    <script src="scripts/main.js"></script>
-</body>
 
-</html>
+<?php include("includes/footer.php"); ?>
