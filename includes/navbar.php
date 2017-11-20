@@ -1,6 +1,6 @@
     <nav class="navbar navbar-expand-md navbar-light" id="nav" style="background-color: #00bcd4">
         
-        <a class="navbar-brand" href="index.html"><img alt="SeaAngels Green Beach Clean Logo" class="d-inline-block align-top animated fadeInLeft" height="75" src="images/logo.png"></a>
+        <a class="navbar-brand" href="index.php"><img alt="SeaAngels Green Beach Clean Logo" class="d-inline-block align-top animated fadeInLeft" height="75" src="images/logo.png"></a>
         <button aria-controls="expanded_nav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#expanded_nav" data-toggle="collapse" type="button">
         <span class="navbar-toggler-icon"></span>
         </button>

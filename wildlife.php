@@ -7,130 +7,134 @@ function customPageHeader(){?>
 <?php include("includes/navbar.php"); ?>
 
 
-    <header>
-        <div id="carouselHome" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselHome" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselHome" data-slide-to="1"></li>
-                <li data-target="#carouselHome" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner" role="listbox">
-                <!-- Slide One - Set the background image for this slide in the line below -->
-                <div class="carousel-item active" style="background-image: url('images/header1.jpg')">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1>SeaAngels</h1>
-                        <h3 class="slider-captions">First Slide</h3>
-                        <p>This is a description for the first slide.</p>
-                    </div>
-                </div>
-                <!-- Slide Two - Set the background image for this slide in the line below -->
-                <div class="carousel-item" style="background-image: url('images/header2.jpg')">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2>CHYEAH</h2>
-                        <h3 class="slider-captions">Second Slide</h3>
-                        <p>This is a description for the second slide.</p>
-                    </div>
-                </div>
-                <!-- Slide Three - Set the background image for this slide in the line below -->
-                <div class="carousel-item" style="background-image: url('images/pelican.jpg')">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1>Hey Im Mr Poopy Butthole</h1>
-                        <h3 class="slider-captions">Third Slide</h3>
-                        <p>This is a description for the third slide.</p>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselHome" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselHome" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </header>
-    <div class="container">
+<div class="container">
+
+        <!-- Page Heading -->
+        <h1 class="my-4">WILDLIFE<small>info</small>
+        </h1>
+
         <div class="row">
-            <div class="col-sm-8">
-                <h2 class="mt-4">What We Do</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p>
-                <p>
-                    <a class="btn btn-primary btn-lg" href="#">Call to Action &raquo;</a>
-                </p>
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="images/gallery/alligator.png" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Alligators</a>
+                        </h4>
+                        <p class="card-text">Alligators were hunted at one time almost to the point of extinction.  Because of this alligators are protected by both state and federal regulations. It is illegal to hunt or trap a wild alligator without a permit.</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-4">
-                <h2 class="mt-4">Contact Us</h2>
-                <address>
-                    <strong>Start Bootstrap</strong>
-                    <br>3481 Melrose Place
-                    <br>Beverly Hills, CA 90210
-                    <br>
-                </address>
-                <address>
-                    <abbr title="Phone"><i class="fa fa-phone" aria-hidden="true"></i></abbr>
-                    (123) 456-7890
-                    <br>
-                    <abbr title="Email"><i class="fa fa-envelope-o" aria-hidden="true"></i></abbr>
-                    <a href="mailto:#">name@example.com</a>
-                </address>
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="images/gallery/dolphin.png" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Dolphins</a>
+                        </h4>
+                        <p class="card-text"> Our seas are blessed with many magnificent creatures.  Among them are the beautiful and graceful dolphin.  Known for their intelligence and their docile nature they are truly a treasure.   </p>
+                    </div>
+                </div>
             </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="images/gallery/Manatee.png" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Manatees</a>
+                        </h4>
+                        <p class="card-text">Manatees are such wonderful creatures.  A gentle giant of sorts they are endangered, by federal guidelines, partly do to human contact or encroachment, boating accidents, litter and more.  </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="images/gallery/turtle.png" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Turtles</a>
+                        </h4>
+                        <p class="card-text">Florida is the second largest sea turtle nesting area in the world.  Oman in southwest Asia is the first.  Sea Turtle season starts March 1st and ends October 31</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="images/gallery/cormorant.png" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Cormorants</a>
+                        </h4>
+                        <p class="card-text">Cormorants are coastal rather than oceanic birds, and some have colonised inland waters – indeed, the original ancestor of cormorants seems to have been a fresh-water bird, judging from the habitat of the most ancient lineage. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="images/gallery/snowy_egret.png" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Snowy Egret</a>
+                        </h4>
+                    
+                        <p class="card-text">Snowy egrets nest in colonies on thick vegetation in isolated places, such as barrier islands, dredge-spoil islands, salt marsh islands, swamps, and marshes. They often change location from year to year. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="images/gallery/spoonbill.png" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Spoonbill</a>
+                        </h4>
+                    
+                        <p class="card-text">All spoonbills have large, flat, spatulate bills and feed by wading through shallow water, sweeping the partly opened bill from side to side.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="images/gallery/tri_color_heron.png" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Tri Colored Heron</a>
+                        </h4>
+                    
+                        <p class="card-text">Tricolored heron's breeding habitat is sub-tropical swamps. It nests in colonies, often with other herons, usually on platforms of sticks in trees or shrubs. In each clutch, 3–7 eggs are typically laid. </p>
+                    </div>
+                </div>
+            </div>
+        
         </div>
         <!-- /.row -->
-        <div class="row">
-            <div class="col-sm-4 my-4">
-                <div class="card">
-                    <img class="card-img-top" src="http://placehold.it/300x200" alt="">
-                    <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Find Out More!</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 my-4">
-                <div class="card">
-                    <img class="card-img-top" src="http://placehold.it/300x200" alt="">
-                    <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut.</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Find Out More!</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 my-4">
-                <div class="card">
-                    <img class="card-img-top" src="http://placehold.it/300x200" alt="">
-                    <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Find Out More!</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /.row -->
+
+        <!-- Pagination -->
+        <ul class="pagination justify-content-center">
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    <span class="sr-only">Previous</span>
+                </a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">3</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </li>
+        </ul>
+
     </div>
-    <!-- Page Content -->
-    <section class="py-5">
-        <div class="container">
-            <h1>This is header 1</h1>
-            <h2>This is header 2</h2>
-            <hr>
-            <h3>This is header 3</h3>
-            <h4>This is header 4</h4>
-            <hr>
-            <h5>This is header 5</h5>
-            <h6>This is header 6</h6>
-            <p>This is regular text</p>
-        </div>
-    </section>
 
 <?php include("includes/footer.php"); ?>
