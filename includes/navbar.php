@@ -26,9 +26,9 @@
                 </li>
             </ul>
             <div class="nav-items-right animated fadeInRight">
-                <a href="https://www.facebook.com/SeaAngelsBeachClean/"><i aria-hidden="true" class="fa fa-facebook-official fa-2x sm-icon"></i></a>
-                <a href="https://twitter.com/"><i aria-hidden="true" class="fa fa-twitter fa-2x sm-icon"></i></a>
-                <a href="https://www.instagram.com/"><i aria-hidden="true" class="fa fa-instagram fa-2x sm-icon"></i></a>
+                <a href="https://www.facebook.com/SeaAngelsBeachClean/" target="_blank"><i aria-hidden="true" class="fa fa-facebook-official fa-2x sm-icon"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i aria-hidden="true" class="fa fa-twitter fa-2x sm-icon"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i aria-hidden="true" class="fa fa-instagram fa-2x sm-icon"></i></a>
                 <a href="#" class="btn btn-info mx-5 mb-2" role="button">Donate</a>
             </div>
         </div>

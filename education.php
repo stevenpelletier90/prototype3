@@ -1,5 +1,9 @@
+<?php
 
-<?php include("includes/header.php"); ?>
+$PageTitle="Green Education";
+
+function customPageHeader(){?>
+<?php } include("includes/header.php"); ?>
 <?php include("includes/navbar.php"); ?>
 
 
