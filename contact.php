@@ -1,5 +1,5 @@
 <?php
-
+$page='contact';
 $PageTitle="Contact SeaAngels";
 
 function customPageHeader(){?>

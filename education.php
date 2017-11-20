@@ -1,5 +1,5 @@
 <?php
-
+$page='education';
 $PageTitle="Green Education";
 
 function customPageHeader(){?>

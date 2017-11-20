@@ -1,6 +1,6 @@
 
 <?php
-
+$page='home';
 $PageTitle="SeaAngels Home";
 
 function customPageHeader(){?>

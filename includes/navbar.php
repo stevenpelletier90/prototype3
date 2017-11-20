@@ -6,23 +6,23 @@
         </button>
         <div class="collapse navbar-collapse" id="expanded_nav">
             <ul class="navbar-nav mr-auto animated fadeIn" id="nav_anim">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.php">HOME</a>
+                <li class="nav-item">
+                    <a class="nav-link <?php if($page=='home'){echo 'active';}?>" href="index.php">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="schedule.php">SCHEDULE</a>
+                    <a class="nav-link <?php if($page=='schedule'){echo 'active';}?>" href="schedule.php">SCHEDULE</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.php">ABOUT</a>
+                    <a class="nav-link <?php if($page=='about'){echo 'active';}?>" href="about.php">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="education.php">EDUCATION</a>
+                    <a class="nav-link <?php if($page=='education'){echo 'active';}?>" href="education.php">EDUCATION</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="wildlife.php">WILDLIFE</a>
+                    <a class="nav-link <?php if($page=='wildlife'){echo 'active';}?>" href="wildlife.php">WILDLIFE</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.php">CONTACT US</a>
+                    <a class="nav-link <?php if($page=='contact'){echo 'active';}?>" href="contact.php">CONTACT US</a>
                 </li>
             </ul>
             <div class="nav-items-right animated fadeInRight">

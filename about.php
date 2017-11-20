@@ -1,5 +1,5 @@
 <?php
-
+$page='about';
 $PageTitle="About SeaAngels";
 
 function customPageHeader(){?>

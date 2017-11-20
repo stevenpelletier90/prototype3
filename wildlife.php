@@ -1,5 +1,5 @@
 <?php
-
+$page='wildlife';
 $PageTitle="Florida Wildlife";
 
 function customPageHeader(){?>

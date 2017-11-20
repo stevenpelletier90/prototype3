@@ -1,5 +1,5 @@
 <?php
-
+$page='schedule';
 $PageTitle="SeaAngels Schedule";
 
 function customPageHeader(){?>
