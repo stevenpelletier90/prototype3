@@ -26,15 +26,18 @@ function customPageHeader() { ?>
       <!-- Slide One - Set the background image for this slide in the line below -->
 
 
-      <div class="carousel-item active" style="background-image: url('images/header1.jpg')">
+      <div class="carousel-item active" style="background-image: url('images/download.jpeg')">
         <div class="carousel-caption d-none d-md-block">
-          <h1>SeaAngels</h1>
+          <h1>
+          </h1>
 
 
-          <h3 class="slider-captions">First Slide</h3>
+          <h3 class="slider-captions">
+          </h3>
 
 
-          <p>This is a description for the first slide.</p>
+          <p>
+          </p>
         </div>
       </div>
       <!-- Slide Two - Set the background image for this slide in the line below -->
@@ -42,13 +45,16 @@ function customPageHeader() { ?>
 
       <div class="carousel-item" style="background-image: url('images/header2.jpg')">
         <div class="carousel-caption d-none d-md-block">
-          <h2>CHYEAH</h2>
+          <h2>
+          </h2>
 
 
-          <h3 class="slider-captions">Second Slide</h3>
+          <h3 class="slider-captions">
+          </h3>
 
 
-          <p>This is a description for the second slide.</p>
+          <p>
+          </p>
         </div>
       </div>
       <!-- Slide Three - Set the background image for this slide in the line below -->
@@ -56,13 +62,16 @@ function customPageHeader() { ?>
 
       <div class="carousel-item" style="background-image: url('images/pelican.jpg')">
         <div class="carousel-caption d-none d-md-block">
-          <h1>Hey Im Mr Poopy Butthole</h1>
+          <h1>
+          </h1>
 
 
-          <h3 class="slider-captions">Third Slide</h3>
+          <h3 class="slider-captions">
+          </h3>
 
 
-          <p>This is a description for the third slide.</p>
+          <p>
+          </p>
         </div>
       </div>
     </div>
@@ -74,16 +83,19 @@ function customPageHeader() { ?>
 <div class="container">
   <div class="row">
     <div class="col-sm-8">
-      <h2 class="mt-4">What We Do</h2>
+      <h1 class="mt-4">What We Do</h1>
 
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
+      <p>We are the Sea Angels! A 501(c)(3) nonprofit environmental conservation organization located in Palm Beach County, Florida. Our main goal is simple: to provide education and awareness to the seriousness of litter and its effects on our environment. We put our mission to action by organizing beach clean ups along Florida's coasts.</p>
 
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p>
+      <p>Our cleanups place an emphasis on sustainability. Therefore, we use only sustainable cleaning materials such as reusable buckets, litter grabbers and reusable gloves. Water bottles? Nope, not at our events. We only use reusable coolers as well as provide you with a snack. Wait, before that ends up in the trash, we are going to recycle that wrapper. We recycle, upcycle, provide education and most of all we are getting involved and we are making a change. We are eco-minded and committed to not only cleaning our beaches and oceans, but cleaning them smart!</p>
 
 
-      <p><a class="btn btn-primary btn-lg" href="#">Call to Action &raquo;</a>
+      <p>We are passionate about our commitment to the environment and encourage anyone who shares this passion to come and join us!</p>
+
+
+      <p><a class="btn btn-primary btn-lg" href="#">Get Involved! &raquo;</a>
       </p>
     </div>
 
@@ -93,15 +105,15 @@ function customPageHeader() { ?>
 
 
       <address>
-        <strong>Start Bootstrap</strong><br>
+        <strong>Sea Angels "Green" Beach Clean, Inc.</strong><br>
         3481 Melrose Place<br>
-        Beverly Hills, CA 90210<br>
+        Boca Raton, Fl 33427<br>
       </address>
 
 
       <address>
         <abbr title="Phone"><i aria-hidden="true" class="fa fa-phone"></i></abbr> (123) 456-7890<br>
-        <abbr title="Email"><i aria-hidden="true" class="fa fa-envelope-o"></i></abbr> <a href="mailto:#">name@example.com</a>
+        <abbr title="Email"><i aria-hidden="true" class="fa fa-envelope-o"></i></abbr> <a href="mailto:#">info@seaangels.org</a>
       </address>
     </div>
   </div>
@@ -111,18 +123,18 @@ function customPageHeader() { ?>
   <div class="row">
     <div class="col-sm-4 my-4">
       <div class="card">
-        <img alt="" class="card-img-top" src="http://placehold.it/300x200">
+        <img alt="Heart Hands Over Sunset" class="card-img-top" src="images/heart.jpg">
 
         <div class="card-body">
-          <h4 class="card-title">Card title</h4>
+          <h4 class="card-title">Give Thanks To Our Beaches!</h4>
 
 
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
+          <p class="card-text">Join us on Saturday, November 25th at Ocean Inlet Park, from 8-10:30 for our monthly beach cleanup. We provide everything you need & give community service hours. No pre-registration is necessary. For more cleanup dates and address</p>
         </div>
 
 
         <div class="card-footer">
-          <a class="btn btn-primary" href="#">Find Out More!</a>
+          <a class="btn btn-primary" href="#">Join Us &raquo;</a>
         </div>
       </div>
     </div>
@@ -130,18 +142,18 @@ function customPageHeader() { ?>
 
     <div class="col-sm-4 my-4">
       <div class="card">
-        <img alt="" class="card-img-top" src="http://placehold.it/300x200">
+        <img alt="" class="card-img-top" src="images/amazonsmile.jpg" style="width:340px; height:200px;">
 
         <div class="card-body">
-          <h4 class="card-title">Card title</h4>
+          <h4 class="card-title">Help Support Our Cause!</h4>
 
 
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut.</p>
+          <p class="card-text">Supporting the Sea Angels has never been easier. When you shop on Amazon, you could be donating a portion of that sale to us. Simply click on the logo below when you shop, purchase what you need and voila!!! You just donated to a great cause.</p>
         </div>
 
 
         <div class="card-footer">
-          <a class="btn btn-primary" href="#">Find Out More!</a>
+          <a class="btn btn-primary" href="#">Find Out More &raquo;</a>
         </div>
       </div>
     </div>
@@ -149,50 +161,23 @@ function customPageHeader() { ?>
 
     <div class="col-sm-4 my-4">
       <div class="card">
-        <img alt="" class="card-img-top" src="http://placehold.it/300x200">
+        <img alt="" class="card-img-top" src="images/terra.jpg">
 
         <div class="card-body">
-          <h4 class="card-title">Card title</h4>
+          <h4 class="card-title">Terracycle</h4>
 
 
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+          <p class="card-text">We will be participating in Terracycle's Beach Plastic Cleanup Program. Certain plastic that we were unable to recycle such as plastic utensils can now be sent to Terracycle and eventually be made into other products. To learn more about this project CLICK HERE</p>
         </div>
 
 
         <div class="card-footer">
-          <a class="btn btn-primary" href="#">Find Out More!</a>
+          <a class="btn btn-primary" href="#">Learn More About This Project &raquo;</a>
         </div>
       </div>
     </div>
   </div>
   <!-- /.row -->
 </div>
-<!-- Page Content -->
-
-
-<section class="py-5">
-  <div class="container">
-    <h2>This is header 2</h2>
-
-    <hr>
-
-
-    <h3>This is header 3</h3>
-
-
-    <h4>This is header 4</h4>
-
-    <hr>
-
-
-    <h5>This is header 5</h5>
-
-
-    <h6>This is header 6</h6>
-
-
-    <p>This is regular text</p>
-  </div>
-</section>
 
 <?php include("includes/footer.php"); ?>
