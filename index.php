@@ -117,35 +117,35 @@ function customPageHeader() { ?>
       </address>
     </div>
   </div>
-  <!-- /.row -->
+
 
 
   <div class="row">
-    <div class="col-sm-4 my-4">
-      <div class="card">
-        <img alt="Heart Hands Over Sunset" class="card-img-top" src="images/heart.jpg">
 
-        <div class="card-body">
-          <h4 class="card-title">Give Thanks To Our Beaches!</h4>
-
-
-          <p class="card-text">Join us on Saturday, November 25th at Ocean Inlet Park, from 8-10:30 for our monthly beach cleanup. We provide everything you need & give community service hours. No pre-registration is necessary. For more cleanup dates and address</p>
+      <div class="col-sm-4 my-4">
+          <div class="card">
+            <img class="card-img-top" src="images/heart.jpg" alt="Heart Hands Over Sunset" >
+            <div class="card-body">
+              <h4 class="card-title">Give Thanks To Our Beaches!  </h4>
+              <p class="card-text"> Join us on Saturday, November 25th at Ocean Inlet Park, from 8-10:30 for our monthly beach cleanup.  We provide everything you need & give community service hours.  No
+pre-registration is necessary.
+For more cleanup dates and address</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Join Us &raquo;</a>
+            </div>
+          </div>
         </div>
-
-
-        <div class="card-footer">
-          <a class="btn btn-primary" href="#">Join Us &raquo;</a>
-        </div>
-      </div>
-    </div>
+    
 
 
     <div class="col-sm-4 my-4">
-      <div class="card">
-        <img alt="" class="card-img-top" src="images/amazonsmile.jpg" style="width:340px; height:200px;">
+      <div class="card" style="">
+        <img alt="" class="card-img-top" src="images/amazonsmile.jpg">
 
         <div class="card-body">
           <h4 class="card-title">Help Support Our Cause!</h4>
+          
 
 
           <p class="card-text">Supporting the Sea Angels has never been easier. When you shop on Amazon, you could be donating a portion of that sale to us. Simply click on the logo below when you shop, purchase what you need and voila!!! You just donated to a great cause.</p>
@@ -160,7 +160,7 @@ function customPageHeader() { ?>
 
 
     <div class="col-sm-4 my-4">
-      <div class="card">
+      <div class="card" style="">
         <img alt="" class="card-img-top" src="images/terra.jpg">
 
         <div class="card-body">
@@ -176,8 +176,10 @@ function customPageHeader() { ?>
         </div>
       </div>
     </div>
+
+
   </div>
-  <!-- /.row -->
+  
 </div>
 
 <?php include("includes/footer.php"); ?>
