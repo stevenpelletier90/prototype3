@@ -7,130 +7,79 @@ function customPageHeader(){?>
 <?php include("includes/navbar.php"); ?>
 
 
-    <header>
-        <div id="carouselHome" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselHome" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselHome" data-slide-to="1"></li>
-                <li data-target="#carouselHome" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner" role="listbox">
-                <!-- Slide One - Set the background image for this slide in the line below -->
-                <div class="carousel-item active" style="background-image: url('images/header1.jpg')">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1>SeaAngels</h1>
-                        <h3 class="slider-captions">First Slide</h3>
-                        <p>This is a description for the first slide.</p>
-                    </div>
-                </div>
-                <!-- Slide Two - Set the background image for this slide in the line below -->
-                <div class="carousel-item" style="background-image: url('images/header2.jpg')">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2>CHYEAH</h2>
-                        <h3 class="slider-captions">Second Slide</h3>
-                        <p>This is a description for the second slide.</p>
-                    </div>
-                </div>
-                <!-- Slide Three - Set the background image for this slide in the line below -->
-                <div class="carousel-item" style="background-image: url('images/pelican.jpg')">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1>Hey Im Mr Poopy Butthole</h1>
-                        <h3 class="slider-captions">Third Slide</h3>
-                        <p>This is a description for the third slide.</p>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselHome" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselHome" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </header>
+
+      <!-- Page Content -->
     <div class="container">
-        <div class="row">
-            <div class="col-sm-8">
-                <h2 class="mt-4">What We Do</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p>
-                <p>
-                    <a class="btn btn-primary btn-lg" href="#">Call to Action &raquo;</a>
-                </p>
-            </div>
-            <div class="col-sm-4">
-                <h2 class="mt-4">Contact Us</h2>
-                <address>
-                    <strong>Start Bootstrap</strong>
-                    <br>3481 Melrose Place
-                    <br>Beverly Hills, CA 90210
-                    <br>
-                </address>
-                <address>
-                    <abbr title="Phone"><i class="fa fa-phone" aria-hidden="true"></i></abbr>
-                    (123) 456-7890
-                    <br>
-                    <abbr title="Email"><i class="fa fa-envelope-o" aria-hidden="true"></i></abbr>
-                    <a href="mailto:#">name@example.com</a>
-                </address>
-            </div>
+
+      <!-- Page Heading -->
+      <h1 class="my-4">Page Heading
+        <small>Secondary Text</small>
+      </h1>
+
+      <!-- Project One -->
+      <div class="row">
+        <div class="col-md-7">
+          <a href="#">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
+          </a>
         </div>
-        <!-- /.row -->
-        <div class="row">
-            <div class="col-sm-4 my-4">
-                <div class="card">
-                    <img class="card-img-top" src="http://placehold.it/300x200" alt="">
-                    <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Find Out More!</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 my-4">
-                <div class="card">
-                    <img class="card-img-top" src="http://placehold.it/300x200" alt="">
-                    <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut.</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Find Out More!</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 my-4">
-                <div class="card">
-                    <img class="card-img-top" src="http://placehold.it/300x200" alt="">
-                    <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Find Out More!</a>
-                    </div>
-                </div>
-            </div>
+        <div class="col-md-5">
+          <h3>Project One</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
+          <a class="btn btn-primary" href="#">View Project</a>
         </div>
-        <!-- /.row -->
+      </div>
+      <!-- /.row -->
+
+      <hr>
+
+      <!-- Project Two -->
+      <div class="row">
+        <div class="col-md-7">
+          <a href="#">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3>Project Two</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, odit velit cumque vero doloremque repellendus distinctio maiores rem expedita a nam vitae modi quidem similique ducimus! Velit, esse totam tempore.</p>
+          <a class="btn btn-primary" href="#">View Project</a>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <hr>
+
+
+    
+
+      <!-- Pagination -->
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">3</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+            <span class="sr-only">Next</span>
+          </a>
+        </li>
+      </ul>
+
     </div>
-    <!-- Page Content -->
-    <section class="py-5">
-        <div class="container">
-            <h1>This is header 1</h1>
-            <h2>This is header 2</h2>
-            <hr>
-            <h3>This is header 3</h3>
-            <h4>This is header 4</h4>
-            <hr>
-            <h5>This is header 5</h5>
-            <h6>This is header 6</h6>
-            <p>This is regular text</p>
-        </div>
-    </section>
+    <!-- /.container -->
+
 
 <?php include("includes/footer.php"); ?>
