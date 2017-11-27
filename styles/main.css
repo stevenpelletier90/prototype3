@@ -142,3 +142,19 @@ p {
     -ms-box-shadow: 0 2px 2px -2px;
     box-shadow: 0 2px 2px -2px;
 }
+
+#loading {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#calendar {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.calendarinfo {
+    text-align: center;
+}

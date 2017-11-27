@@ -3,75 +3,53 @@ $page='schedule';
 $PageTitle="SeaAngels Schedule";
 
 function customPageHeader(){?>
-<?php } include("includes/header.php"); ?>
-<?php include("includes/navbar.php"); ?>
+    <?php } include("includes/header.php"); ?>
+    <?php include("includes/navbar.php"); ?>
 
 
-<!-- Main Content -->
+
+    <!-- Main Content -->
     <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="post-preview">
-            <a href="post.html">
-              <h2 class="post-title">
-                Man must explore, and this is exploration at its greatest
-              </h2>
-              <h3 class="post-subtitle">
-                Problems look mighty small from 150 miles up
-              </h3>
-            </a>
-            <p class="post-meta">Posted by
-              <a href="#">Start Bootstrap</a>
-              on September 24, 2017</p>
-          </div>
-          <hr>
-          <div class="post-preview">
-            <a href="post.html">
-              <h2 class="post-title">
-                I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
-              </h2>
-            </a>
-            <p class="post-meta">Posted by
-              <a href="#">Start Bootstrap</a>
-              on September 18, 2017</p>
-          </div>
-          <hr>
-          <div class="post-preview">
-            <a href="post.html">
-              <h2 class="post-title">
-                Science has not yet mastered prophecy
-              </h2>
-              <h3 class="post-subtitle">
-                We predict too much for the next year and yet far too little for the next ten.
-              </h3>
-            </a>
-            <p class="post-meta">Posted by
-              <a href="#">Start Bootstrap</a>
-              on August 24, 2017</p>
-          </div>
-          <hr>
-          <div class="post-preview">
-            <a href="post.html">
-              <h2 class="post-title">
-                Failure is not an option
-              </h2>
-              <h3 class="post-subtitle">
-                Many say exploration is part of our destiny, but it’s actually our duty to future generations.
-              </h3>
-            </a>
-            <p class="post-meta">Posted by
-              <a href="#">Start Bootstrap</a>
-              on July 8, 2017</p>
-          </div>
-          <hr>
-          <!-- Pager -->
-          <div class="clearfix">
-            <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
-          </div>
+        <h1 class="my-4">Upcoming Events
+            <small>Everyone is welcome!</small>
+        </h1>
+        <hr>
+        <div class="row">
+            <div id='loading'>loading...</div>
+            <div id='calendar'></div>
         </div>
-      </div>
+
+        <hr>
+
+        <div class="row">
+            <h1>Come help us save the beach!</h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 my-4 calendarinfo">
+                <i class="fa fa-5x fa-map-marker" aria-hidden="true"></i>
+                <p>6990 N. Ocean Blvd.
+                    <br> Boynton Beach, FL 33435
+                </p>
+            </div>
+            <div class="col-sm-4 my-4 calendarinfo">
+                <i class="fa fa-5x fa-calendar" aria-hidden="true"></i>
+                <p>Last Saturday of Every Week
+                <br>Rain or Shine</p>
+            </div>
+            <div class="col-sm-4 my-4 calendarinfo">
+                <i class="fa fa-5x fa-clock-o" aria-hidden="true"></i>
+                <p>8:00am - 10:30am
+                <br>Holidays may effect time</p>
+            </div>
+        </div>
+        <div class="row calendarinfo">
+            <div class="col-sm-8" style="float: none; margin: 0 auto;">
+                <p>We clean the beaches from Stuart to Boca Raton. We are individuals dedicated to implementing change and cleaning our beaches that are in desperate need of our intervention. We are the leaders in "Green" cleanups. We recycle, upcycle and only use sustainable cleaning supplies like buckets, grabbers and reusable gloves. No plastic bags, plastic water bottles or latex gloves here to add to our landfills. We also give community service hours, provide a snack, and water. Once you clean with us you will know why we are the leaders in “Green” cleanups in Florida. For more information <a href="contact.php">Contact Us</a>
+                </p>
+            </div>
+        </div>
     </div>
 
     <hr>
 
-<?php include("includes/footer.php"); ?>
+    <?php include("includes/footer.php"); ?>
