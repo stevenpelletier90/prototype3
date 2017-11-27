@@ -20,9 +20,9 @@
     <script src="scripts/bootstrap.min.js"></script>
     <script src="scripts/main.js"></script>
 
-    <script src="/scripts/moment.min.js"></script>
-    <script src="/scripts/fullcalendar.min.js"></script>
-    <script src="/scripts/gcal.min.js"></script>
+    <script src="scripts/moment.min.js"></script>
+    <script src="scripts/fullcalendar.min.js"></script>
+    <script src="scripts/gcal.min.js"></script>
     
     <script>
 
