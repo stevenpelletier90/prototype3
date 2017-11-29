@@ -15,6 +15,21 @@ function customPageHeader(){?>
       </h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, explicabo dolores ipsam aliquam inventore corrupti eveniet quisquam quod totam laudantium repudiandae obcaecati ea consectetur debitis velit facere nisi expedita vel?</p>
 
+       <div class="row">
+        <div class="col-md-4">
+          <a href="#">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="images/test.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-8">
+          <h3>Project One</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
+          <a class="btn btn-primary" href="#">View Project</a>
+        </div>
+      </div>
+      
+      <hr>
+
       <!-- Team Members Row -->
       <div class="row">
         <div class="col-lg-12">
