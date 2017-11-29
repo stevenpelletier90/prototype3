@@ -21,7 +21,7 @@ function customPageHeader(){?>
           <h2 class="my-4">Our Team</h2>
         </div>
         <div class="col-lg-4 col-sm-6 text-center mb-4">
-          <img class="rounded-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="">
+          <img class="rounded-circle img-fluid d-block mx-auto" src="http://www.evanmarckatz.com/blog/wp-content/uploads/2009/06/Blog-pic-40-yr-old-man-2197365.jpg" alt="">
           <h3>John Smith
             <small>Job Title</small>
           </h3>
