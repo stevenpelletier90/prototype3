@@ -44,6 +44,12 @@ function customPageHeader(){?>
                                 <option value="product">Complaints</option>
                             </select>
                             </div>
+                            <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input">
+      Subscribe to Newsletter
+    </label>
+  </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
