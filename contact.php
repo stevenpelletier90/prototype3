@@ -14,7 +14,7 @@ function customPageHeader(){?>
 
         <div class="row">
             <div class="col-sm-12 col-lg-12">
-                <h2 class="text-center">Contact us <small>Feel free to contact us</small></h2>
+                <h3 class="text-center" id="contact_heading">Contact SeaAngels<small>We want to Hear from you!</small></h3>
             </div>
         </div>
 
@@ -67,7 +67,7 @@ function customPageHeader(){?>
             </div>
             <div class="col-md-4">
                 <form>
-                    <legend>Our "office"</legend>
+                    <h3>Our Office</h3>
                     <address>
                 <strong>Sea Angles</strong><br>
                 Ocean Inlet Park<br>
