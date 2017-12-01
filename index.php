@@ -17,28 +17,16 @@ function customPageHeader() { ?>
             </ol>
             <div class="carousel-inner" role="listbox">
                 <!-- Slide One - Set the background image for this slide in the line below -->
-                <div class="carousel-item active" style="background-image: url('images/download.jpeg')">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1>EXAMPLE</h1>
-                        <h3 class="slider-captions">EXAMPLE</h3>
-                        <p>EXAMPLE</p>
-                    </div>
+                <div class="carousel-item active" style="background-image:url('images/conservation5.png');">
+                   
                 </div>
                 <!-- Slide Two - Set the background image for this slide in the line below -->
-                <div class="carousel-item" style="background-image: url('images/header2.jpg')">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1>EXAMPLE</h1>
-                        <h3 class="slider-captions">EXAMPLE</h3>
-                        <p>EXAMPLE</p>
-                    </div>
+                <div class="carousel-item" style="background-image: url('images/protecting1.png')">
+                    
                 </div>
                 <!-- Slide Three - Set the background image for this slide in the line below -->
-                <div class="carousel-item" style="background-image: url('images/turtle.jpg')" alt="Header Image Turtle" title="Header Image Turtle">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1>EXAMPLE</h1>
-                        <h3 class="slider-captions">EXAMPLE</h3>
-                        <p>EXAMPLE</p>
-                    </div>
+                <div class="carousel-item" style="background-image: url('images/spreading1.png')" alt="Header Image Turtle" title="Header Image Turtle">
+                   
                 </div>
             </div>
             <a class="carousel-control-prev" data-slide="prev" href="#carouselHome" role="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" data-slide="next" href="#carouselHome" role="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
@@ -54,7 +42,8 @@ function customPageHeader() { ?>
                 <p><a class="btn btn-primary btn-lg" href="#">Get Involved! &raquo;</a>
                 </p>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4" >
+                <div id="contactbubble">
                 <h2 class="mt-4">Contact Us</h2>
                 <address>
                     <strong>Sea Angels "Green" Beach Clean, Inc.</strong>
@@ -67,6 +56,8 @@ function customPageHeader() { ?>
                     <br>
                     <abbr title="Email"><i aria-hidden="true" class="fa fa-envelope-o"></i></abbr> <a href="mailto:#">info@seaangels.org</a>
                 </address>
+                </div>
+
             </div>
         </div>
         <div class="row">
@@ -75,10 +66,10 @@ function customPageHeader() { ?>
                     <img class="card-img-top" src="images/heart.jpg" alt="Heart Hands Over Sunset">
                     <div class="card-body">
                         <h4 class="card-title">Give Thanks To Our Beaches!  </h4>
-                        <p class="card-text"> Join us on Saturday, November 25th at Ocean Inlet Park, from 8-10:30 for our monthly beach cleanup. We provide everything you need & give community service hours. No pre-registration is necessary. For more cleanup dates and address</p>
+                        <p class="card-text"> Join us on Saturday, November 25th at Ocean Inlet Park, from 8-10:30 for our monthly beach cleanup. We provide everything you need & give community service hours. No pre-registration is necessary. </p>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Join Us &raquo;</a>
+                        <a href="schedule.php" class="btn btn-primary">Join Us &raquo;</a>
                     </div>
                 </div>
             </div>
@@ -90,7 +81,7 @@ function customPageHeader() { ?>
                         <p class="card-text">Supporting the Sea Angels has never been easier. When you shop on Amazon, you could be donating a portion of that sale to us. Simply click on the logo below when you shop, purchase what you need and voila!!! You just donated to a great cause.</p>
                     </div>
                     <div class="card-footer">
-                        <a class="btn btn-primary" href="#">Find Out More &raquo;</a>
+                        <a class="btn btn-primary" href="https://smile.amazon.com/ch/45-4181562">Find Out More &raquo;</a>
                     </div>
                 </div>
             </div>
@@ -102,7 +93,7 @@ function customPageHeader() { ?>
                         <p class="card-text">We will be participating in Terracycle's Beach Plastic Cleanup Program. Certain plastic that we were unable to recycle such as plastic utensils can now be sent to Terracycle and eventually be made into other products. To learn more about this project CLICK HERE</p>
                     </div>
                     <div class="card-footer">
-                        <a class="btn btn-primary" href="#">Learn More About This Project &raquo;</a>
+                        <a class="btn btn-primary" href="https://www.terracycle.com/en-US/brigades/beachcleanup">Learn More About This Project &raquo;</a>
                     </div>
                 </div>
             </div>
