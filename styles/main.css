@@ -67,6 +67,7 @@ p {
 
 
 
+
 /*NORMAL*/
 
 .navbar-light .navbar-nav .nav-link {
@@ -75,6 +76,7 @@ p {
     font-weight: 400;
     font-size: 20px;
 }
+
 
 
 
@@ -88,6 +90,7 @@ p {
     -ms-transition: .5s ease-out;
     transition: .5s ease-out;
 }
+
 
 
 
@@ -162,22 +165,23 @@ p {
 
 
 .hide-bullets {
-    list-style:none;
+    list-style: none;
     margin-left: -40px;
-    margin-top:20px;
+    margin-top: 20px;
 }
 
 .thumbnail {
     padding: 0;
 }
 
-.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
     width: 100%;
 }
 
 
 .icon {
-    font-size :60px;
+    font-size: 60px;
     padding: 25px 0 0;
     margin-top: 20px;
     background: linear-gradient(to bottom, #33ccff 0%, #cc33ff 100%);
@@ -192,12 +196,11 @@ p {
 #education2 {
 
     padding-bottom: 15px;
-  color: #00bcd4;
+    color: #00bcd4;
 }
 
 #litterinfo {
-    padding: 30px 0px 50px 0px; 
-
+    padding: 30px 0px 50px 0px;
 }
 
 .figure img {
@@ -206,9 +209,8 @@ p {
 }
 
 
-#paddingbox2{
-    margin:100px;
-
+#paddingbox2 {
+    margin: 100px;
 }
 
 #wildlifeinfo {
@@ -217,45 +219,36 @@ p {
 }
 
 
-hr.style1{
+hr.style1 {
     border-top: 1px solid #8c8b8b;
 }
 
 
-.cardtitle {
-
-
-}
+.cardtitle {}
 
 #contactbubble {
     text-align: center;
     background-color: #e5e7e8;
     margin-top: 80px;
     border-style: solid #e5e7e8;
-    padding:10px 20px 30px 20px;
+    padding: 10px 20px 30px 20px;
     border-radius: 30px;
-
 }
 
-a.footer-items{
-
-}
+a.footer-items {}
 
 
 #galleryjumbotron {
- 
+
 
     background-image: url('../images/sand.jpg');
     background-size: cover;
-
-
 }
 
 #galleryjumbotron h1 {
 
-color: white;
-font-size: 90px;
-
+    color: white;
+    font-size: 90px;
 }
 
 
@@ -265,8 +258,7 @@ font-size: 90px;
 }
 
 
-#about2 {
-    }
+#about2 {}
 
 #about2 img {
 
@@ -276,15 +268,10 @@ font-size: 90px;
 #about3 {
 
     padding-top: 50px;
-
 }
 
-  .gallery-thumbnail {
-        overflow: hidden;
-        height: 160px;
-        padding: 10px;
-    }
-
-
-
-
+.gallery-thumbnail {
+    overflow: hidden;
+    height: 160px;
+    padding: 10px;
+}
