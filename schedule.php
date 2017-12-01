@@ -11,18 +11,35 @@ function customPageHeader(){?>
     <!-- Main Content -->
     <div class="container">
         <h1 class="my-4">Upcoming Events
-            <small>Everyone is welcome!</small>
+            
         </h1>
+
+
         <hr>
+
+                <div class="row calendarinfo container-fluid">
+
+            <div class="col-sm-10" style="float: none; margin: 0 auto; width:100vw; background-color:#e5e5e5; border-style: solid;  border-radius: 5px; border-color:#e5e5e5; padding:10px; 15px 10px 15px; ">
+            <img src="images/icons/beach.png">
+            <h2>Come help us save the beach!</h2>
+                <p>From Stuart to Boca Raton, we are individuals dedicated to implementing change and cleaning our beaches that are in desperate need of our intervention. As the leaders in "Green" cleanups, we are dedicated to recycling, upcycling using ONLY sustainable cleaning supplies like buckets, grabbers and reusable gloves. No plastic bags, plastic water bottles or latex gloves here to add to our landfills. We also give community service hours, provide a snack, and water. Once you clean with us you will know why we are the leaders in “Green” cleanups in Florida. For more information <a href="contact.php">Contact Us.</a>
+                </p>
+            </div>
+        </div>
+
         <div class="row">
             <div id='loading'>loading...</div>
             <div id='calendar'></div>
         </div>
 
+
+
         <hr>
 
+
+
         <div class="row">
-            <h1>Come help us save the beach!</h1>
+            
         </div>
         <div class="row">
             <div class="col-sm-4 my-4 calendarinfo">
@@ -42,12 +59,7 @@ function customPageHeader(){?>
                 <br>Holidays may effect time</p>
             </div>
         </div>
-        <div class="row calendarinfo">
-            <div class="col-sm-8" style="float: none; margin: 0 auto;">
-                <p>We clean the beaches from Stuart to Boca Raton. We are individuals dedicated to implementing change and cleaning our beaches that are in desperate need of our intervention. We are the leaders in "Green" cleanups. We recycle, upcycle and only use sustainable cleaning supplies like buckets, grabbers and reusable gloves. No plastic bags, plastic water bottles or latex gloves here to add to our landfills. We also give community service hours, provide a snack, and water. Once you clean with us you will know why we are the leaders in “Green” cleanups in Florida. For more information <a href="contact.php">Contact Us</a>
-                </p>
-            </div>
-        </div>
+
     </div>
 
     <hr>
