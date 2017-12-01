@@ -14,11 +14,33 @@ function customPageHeader(){?>
     }
 </style>
 
+<div class="jumbotron" id="galleryjumbotron">
+<div class="container">
+ <h1 class="text-center">Recyled Art Gallery</h1> 
+  
+ 
+</div>
+ 
+</div>
+
+
+
+
+
     <!-- Page Content -->
+
+
     <div class="container">
-        <h1>Art Gallery</h1>
-        <p>A great way to upcycle litter is to take that trash and turn it into a treasure. A little creativity can go a long way and can be a great way to reuse those things we find so often on the beach such as plastic bottles, caps, plastic cups, straws and other items. See some of the fun stuff you can make while making a difference. Have any questions or suggestions Contact Us
-        </p>
+
+
+        <p>A great way to upcycle litter is to take that trash and turn it into a treasure. A little creativity can go a long way and can be a great way to reuse those things we find so often on the beach such as plastic bottles, caps, plastic cups, straws and other items. See some of the fun stuff you can make while making a difference.
+        </p> 
+
+
+<hr>
+
+
+        
         <div class="row text-center text-lg-left">
             <div title="Image 1" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
                 <a href="#" class="d-block mb-4 h-100">

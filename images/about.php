@@ -9,14 +9,8 @@ function customPageHeader(){?>
 <!-- Page Content -->
 
 
-<div class="jumbotron" id="galleryjumbotron">
-<div class="container">
- <h1 class="text-center">Who We Are</h1> 
-  
- 
-</div>
- 
-</div>
+       <div class="container-fluid" id="aboutheader"><h2 class="text-center" id="education">The Sea Angels</h2>
+       </div>
 
     <div class="container-fluid" id="about2">
             <div class="container">
@@ -29,11 +23,11 @@ function customPageHeader(){?>
               <div class="col-md-7">
               <h3 class="text-center" id="education2">About Us</h3>
                 
-                
+                <p class="text-justify">The Sea Angels are a 501(c)(3) nonprofit environmental conservation organization located in Palm Beach County, Florida.  We are the leaders in "Green", sustainable cleanups.  We believe that it's not only important to cleanup our environment, but also how you clean it.  We use only sustainable cleaning materials such as reusable buckets, litter grabbers and reusable gloves.  Water bottles? Nope, not at our events. We only use reusable coolers as well as provide you with a snack.  Wait, before that ends up in the trash, we are going to recycle that wrapper.  We recycle, upcycle, provide education and most of all we are getting involved and we are making a change.  We are eco-minded and committed to not only cleaning our beaches and oceans, but cleaning them smart!</p>
                 <br>
                 <p class="text-justify">We have been providing education, awareness and cleanup's on our South Florida beaches since 2005.  We do this so we can help educate everyone to the plight of litter on our beaches, in our oceans and how it is affecting our wildlife.  We also care about our community so that's why we have implemented several community outreach programs and work with several organizations such as Resource Depot, Ronald McDondald House, Forgotten Soldiers Outreach, Boca Helping Hands and Last Chance Puppies and Kittens.
       Our main goal is simple, provide education and awareness to the seriousness of litter and its effects on our environment.   The Sea Angels are more then a cleanup group.  We are a group that has a passion and a love for our beaches, oceans, wildlife and natural areas.  We are diligent, dedicated and we are change... Be the change, one piece of litter at a time.</p>         
-                <center><a class="btn btn-primary " href="schedule.php">View Schedule</a></center>
+                <a class="btn btn-primary " href="#">View Schedule</a>
               </div>
             </div>
             </div>

@@ -54,7 +54,7 @@ function customPageHeader() { ?>
                 <address>
                     <abbr title="Phone"><i aria-hidden="true" class="fa fa-phone"></i></abbr> (321) 456-7890
                     <br>
-                    <abbr title="Email"><i aria-hidden="true" class="fa fa-envelope-o"></i></abbr><a href="mailto:#"> seaangelsflorida@gmail.com</a>
+                    <abbr title="Email"><i aria-hidden="true" class="fa fa-envelope-o"></i></abbr><a href="mailto:#">info@seaangels.org</a>
                 </address>
                 </div>
 

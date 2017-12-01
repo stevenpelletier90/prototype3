@@ -192,6 +192,7 @@ p {
 #education2 {
 
     padding-bottom: 15px;
+  color: #00bcd4;
 }
 
 #litterinfo {
@@ -236,4 +237,48 @@ hr.style1{
 
 }
 
-a.footer-items
+a.footer-items{
+
+}
+
+
+#galleryjumbotron {
+ 
+
+    background-image: url('../images/sand.jpg');
+    background-size: cover;
+
+
+}
+
+#galleryjumbotron h1 {
+
+color: white;
+font-size: 90px;
+
+}
+
+
+#aboutheader {
+    margin-bottom: 30px;
+    background-image: url ('../images/test.png');
+}
+
+
+#about2 {
+    }
+
+#about2 img {
+
+    margin-top: 100px;
+}
+
+#about3 {
+
+    padding-top: 50px;
+
+}
+
+
+
+

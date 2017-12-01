@@ -6,12 +6,13 @@ function customPageHeader(){?>
     <?php } include("includes/header.php"); ?>
     <?php include("includes/navbar.php"); ?>
     <div class="container">
-        <div class="row">
+        <div class="row" style="padding:50px;">
             <div class="col-sm-12 col-lg-12">
-                <h3 class="text-center" id="education">Contact SeaAngels</h3>
-                <h2 class="text-center">We Want to Hear From You!</h2>
+                <h3 class="text-center" id="education">Contact Sea Angels</h3>
+                <h2 class="text-center">We Want to Hear From You!</h2><hr>
             </div>
         </div>
+
         <div class="row">
             <div class="col-md-8">
                 <form>
@@ -72,7 +73,7 @@ function customPageHeader(){?>
                     <address>
                         <strong>Email</strong>
                         <br>
-                        <a href="mailto:#">contact@seaangles.org</a>
+                        <a href="mailto:#">seaangelsflorida@gmail.com</a>
                     </address>
                 </form>
             </div>

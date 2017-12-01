@@ -1,158 +1,85 @@
 <?php
 $page='about';
-$PageTitle="SeaAngels Gallery";
+$PageTitle="Media and Videos";
 
 function customPageHeader(){?>
-    <?php } include("includes/header.php"); ?>
-    <?php include("includes/navbar.php"); ?>
+<?php } include("includes/header.php"); ?>
+<?php include("includes/navbar.php"); ?>
 
-<style>
-    .gallery-thumbnail {
-        overflow: hidden;
-        height: 160px;
-        padding: 10px;
-    }
-</style>
-
-    <!-- Page Content -->
+<!-- Page Content -->
     <div class="container">
-        <h1>Art Gallery</h1>
-        <p>A great way to upcycle litter is to take that trash and turn it into a treasure. A little creativity can go a long way and can be a great way to reuse those things we find so often on the beach such as plastic bottles, caps, plastic cups, straws and other items. See some of the fun stuff you can make while making a difference. Have any questions or suggestions Contact Us
-        </p>
-        <div class="row text-center text-lg-left">
-            <div title="Image 1" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
-                <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/artgallery/1.jpg" alt="">
+
+      <!-- Introduction Row -->
+      <h1 class="my-4">About Us
+        <small>It's Nice to Meet You!</small>
+      </h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, explicabo dolores ipsam aliquam inventore corrupti eveniet quisquam quod totam laudantium repudiandae obcaecati ea consectetur debitis velit facere nisi expedita vel?</p>
+
+       <div class="row">
+        <div class="col-md-4">
+          <a href="#">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="images/test.png" alt="">
           </a>
-            </div>
-            <div title="Image 2" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
-                <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/artgallery/2.jpg" alt="">
-          </a>
-            </div>
-            <div title="Image 3" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
-                <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/artgallery/3.jpg" alt="">
-          </a>
-            </div>
-            <div title="Image 4" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
-                <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/artgallery/4.jpg" alt="">
-          </a>
-            </div>
-            <div title="Image 5" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
-                <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/artgallery/5.jpg" alt="">
-          </a>
-            </div>
-            <div title="Image 6" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
-                <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/artgallery/6.jpg" alt="">
-          </a>
-            </div>
-            <div title="Image 7" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
-                <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/artgallery/7.jpg" alt="">
-          </a>
-            </div>
-            <div title="Image 8" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
-                <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/artgallery/8.jpg" alt="">
-          </a>
-            </div>
-            <div title="Image 9" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
-                <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/artgallery/9.jpg" alt="">
-          </a>
-            </div>
-            <div title="Image 10" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
-                <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/artgallery/10.jpg" alt="">
-          </a>
-            </div>
-            <div title="Image 11" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
-                <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/artgallery/11.jpg" alt="">
-          </a>
-            </div>
-            <div title="Image 12" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
-                <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/artgallery/12.jpg" alt="">
-          </a>
-            </div>
-            <div title="Image 12" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
-                <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/artgallery/13.jpg" alt="">
-          </a>
-            </div>
-            <div title="Image 12" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
-                <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/artgallery/14.jpg" alt="">
-          </a>
-            </div>
-            <div title="Image 12" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
-                <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/artgallery/15.jpg" alt="">
-          </a>
-            </div>
-            <div title="Image 12" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
-                <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/artgallery/16.jpg" alt="">
-          </a>
-            </div>
-            <div title="Image 12" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
-                <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/artgallery/17.jpg" alt="">
-          </a>
-            </div>
-            <div title="Image 12" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
-                <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/artgallery/18.jpg" alt="">
-          </a>
-            </div>
-            <div title="Image 12" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
-                <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/artgallery/19.jpg" alt="">
-          </a>
-            </div>
-            <div title="Image 12" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
-                <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="images/artgallery/20.jpg" alt="">
-          </a>
-            </div>
         </div>
+        <div class="col-md-8">
+          <h3>Project One</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
+          <a class="btn btn-primary" href="#">View Project</a>
+        </div>
+      </div>
+      
+      <hr>
+
+      <!-- Team Members Row -->
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="my-4">Our Team</h2>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img class="rounded-circle img-fluid d-block mx-auto" src="http://www.evanmarckatz.com/blog/wp-content/uploads/2009/06/Blog-pic-40-yr-old-man-2197365.jpg" alt="">
+          <h3>John Smith
+            <small>Job Title</small>
+          </h3>
+          <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img class="rounded-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="">
+          <h3>John Smith
+            <small>Job Title</small>
+          </h3>
+          <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img class="rounded-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="">
+          <h3>John Smith
+            <small>Job Title</small>
+          </h3>
+          <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img class="rounded-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="">
+          <h3>John Smith
+            <small>Job Title</small>
+          </h3>
+          <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img class="rounded-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="">
+          <h3>John Smith
+            <small>Job Title</small>
+          </h3>
+          <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img class="rounded-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="">
+          <h3>John Smith
+            <small>Job Title</small>
+          </h3>
+          <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+        </div>
+      </div>
+
     </div>
     <!-- /.container -->
 
-    <div tabindex="-1" class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button class="close" type="button" data-dismiss="modal">×</button>
-                </div>
-                <div class="modal-body">
-
-                </div>
-                <div class="modal-footer">
-                    <button class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <?php include("includes/footer.php"); ?>
-
-    <script>
-        $(document).ready(function() {
-            $('.img-thumbnail').click(function() {
-                $('.modal-body').empty();
-                var title = $(this).parent('a').attr("title");
-                $('.modal-title').html(title);
-                $($(this).parents('div').html()).appendTo('.modal-body');
-                $('#myModal').modal({
-                    show: true
-                });
-            });
-        });
-    </script>
+<?php include("includes/footer.php"); ?>

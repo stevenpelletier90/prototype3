@@ -12,7 +12,7 @@
                 <a class="nav-link dropdown-toggle <?php if($page=='about'){echo 'active';}?>" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ABOUT
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="about.php">About SeaAngels</a>
+                    <a class="dropdown-item" href="about.php">About Sea Angels</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="media.php">News and Media</a>
                     <div class="dropdown-divider"></div>
