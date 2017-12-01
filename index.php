@@ -35,7 +35,7 @@ function customPageHeader() { ?>
     <div class="container">
         <div class="row">
             <div class="col-sm-8">
-                <h1 class="mt-4">What We Do</h1>
+                <h1 class="mt-4">We Are The SeaAngels!</h1>
                 <p>We are the Sea Angels! A 501(c)(3) nonprofit environmental conservation organization located in Palm Beach County, Florida. Our main goal is simple: to provide education and awareness to the seriousness of litter and its effects on our environment. We put our mission to action by organizing beach clean ups along Florida's coasts.</p>
                 <p>Our cleanups place an emphasis on sustainability. Therefore, we use only sustainable cleaning materials such as reusable buckets, litter grabbers and reusable gloves. Water bottles? Nope, not at our events. We only use reusable coolers as well as provide you with a snack. Wait, before that ends up in the trash, we are going to recycle that wrapper. We recycle, upcycle, provide education and most of all we are getting involved and we are making a change. We are eco-minded and committed to not only cleaning our beaches and oceans, but cleaning them smart!</p>
                 <p>We are passionate about our commitment to the environment and encourage anyone who shares this passion to come and join us!</p>
@@ -93,7 +93,7 @@ function customPageHeader() { ?>
                         <p class="card-text">We will be participating in Terracycle's Beach Plastic Cleanup Program. Certain plastic that we were unable to recycle such as plastic utensils can now be sent to Terracycle and eventually be made into other products. To learn more about this project CLICK HERE</p>
                     </div>
                     <div class="card-footer">
-                        <a class="btn btn-primary" href="https://www.terracycle.com/en-US/brigades/beachcleanup">Learn More About This Project &raquo;</a>
+                        <a class="btn btn-primary" href="https://www.terracycle.com/en-US/brigades/beachcleanup">Learn More! &raquo;</a>
                     </div>
                 </div>
             </div>
