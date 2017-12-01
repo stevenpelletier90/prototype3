@@ -279,6 +279,12 @@ font-size: 90px;
 
 }
 
+  .gallery-thumbnail {
+        overflow: hidden;
+        height: 160px;
+        padding: 10px;
+    }
+
 
 
 

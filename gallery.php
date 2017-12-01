@@ -6,13 +6,7 @@ function customPageHeader(){?>
     <?php } include("includes/header.php"); ?>
     <?php include("includes/navbar.php"); ?>
 
-<style>
-    .gallery-thumbnail {
-        overflow: hidden;
-        height: 160px;
-        padding: 10px;
-    }
-</style>
+
 
 <div class="jumbotron" id="galleryjumbotron">
 <div class="container">
@@ -164,17 +158,3 @@ function customPageHeader(){?>
 
 
     <?php include("includes/footer.php"); ?>
-
-    <script>
-        $(document).ready(function() {
-            $('.img-thumbnail').click(function() {
-                $('.modal-body').empty();
-                var title = $(this).parent('a').attr("title");
-                $('.modal-title').html(title);
-                $($(this).parents('div').html()).appendTo('.modal-body');
-                $('#myModal').modal({
-                    show: true
-                });
-            });
-        });
-    </script>
