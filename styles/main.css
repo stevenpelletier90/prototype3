@@ -114,12 +114,6 @@ p {
     transition: .5s ease-in;
 }
 
-.footer-items {
-    color: #fff;
-    font-weight: 300;
-    font-style: italic;
-}
-
 #nav_anim {
     -webkit-animation-duration: 2s;
     -webkit-animation-delay: 0s;
@@ -241,3 +235,5 @@ hr.style1{
     border-radius: 30px;
 
 }
+
+a.footer-items

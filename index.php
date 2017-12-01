@@ -52,9 +52,9 @@ function customPageHeader() { ?>
                     <br>
                 </address>
                 <address>
-                    <abbr title="Phone"><i aria-hidden="true" class="fa fa-phone"></i></abbr> (123) 456-7890
+                    <abbr title="Phone"><i aria-hidden="true" class="fa fa-phone"></i></abbr> (321) 456-7890
                     <br>
-                    <abbr title="Email"><i aria-hidden="true" class="fa fa-envelope-o"></i></abbr> <a href="mailto:#">info@seaangels.org</a>
+                    <abbr title="Email"><i aria-hidden="true" class="fa fa-envelope-o"></i></abbr><a href="mailto:#">info@seaangels.org</a>
                 </address>
                 </div>
 
@@ -65,11 +65,11 @@ function customPageHeader() { ?>
                 <div class="card">
                     <img class="card-img-top" src="images/heart.jpg" alt="Heart Hands Over Sunset">
                     <div class="card-body">
-                        <h4 class="card-title">Give Thanks To Our Beaches!  </h4>
+                        <h4 class="card-title">Give Thanks To Our Beaches!</h4>
                         <p class="card-text"> Join us on Saturday, November 25th at Ocean Inlet Park, from 8-10:30 for our monthly beach cleanup. We provide everything you need & give community service hours. No pre-registration is necessary. </p>
                     </div>
                     <div class="card-footer">
-                        <a href="schedule.php" class="btn btn-primary">Join Us &raquo;</a>
+                        <a href="schedule.php" class="btn btn-primary">Join Us! &raquo;</a>
                     </div>
                 </div>
             </div>
@@ -78,10 +78,10 @@ function customPageHeader() { ?>
                     <img alt="" class="card-img-top" src="images/amazonsmile.jpg">
                     <div class="card-body">
                         <h4 class="card-title">Help Support Our Cause!</h4>
-                        <p class="card-text">Supporting the Sea Angels has never been easier. When you shop on Amazon, you could be donating a portion of that sale to us. Simply click on the logo below when you shop, purchase what you need and voila!!! You just donated to a great cause.</p>
+                        <p class="card-text">Supporting the Sea Angels has never been easier. When you shop on Amazon, you could be donating a portion of that sale to us. Simply click on the logo below when you shop, purchase what you need and...VOILA! You just donated to a great cause.</p>
                     </div>
                     <div class="card-footer">
-                        <a class="btn btn-primary" href="https://smile.amazon.com/ch/45-4181562">Find Out More &raquo;</a>
+                        <a class="btn btn-primary" href="https://smile.amazon.com/ch/45-4181562">Find Out More! &raquo;</a>
                     </div>
                 </div>
             </div>
