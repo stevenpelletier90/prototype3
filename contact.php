@@ -8,63 +8,75 @@ function customPageHeader(){?>
 
 
 
-      <!-- Page Content -->
+    <!-- Page Content -->
     <div class="container">
 
-      <!-- Page Heading -->
-      <h1 class="my-4">Page Heading
-        <small>Secondary Text</small>
-      </h1>
 
-      <!-- Project One -->
-      <div class="row">
-        <div class="col-md-6">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
-          </a>
+        <div class="row">
+            <div class="col-sm-12 col-lg-12">
+                <h2 class="text-center">Contact us <small>Feel free to contact us</small></h2>
+            </div>
         </div>
-        <div class="col-md-6">
-          <h3>Project One</h3>
-          <form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-  <div class="form-check">
-    <label class="form-check-label">
-      <input type="checkbox" class="form-check-input">
-      Check me out
-    </label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
-        </div>
-      </div>
-      <!-- /.row -->
 
-      <hr>
-
-      <!-- Project Two -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
-          </a>
+        <div class="row">
+            <div class="col-md-8">
+                <form>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="name">
+                                Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">
+                                Email Address</label>
+                                <div class="input-group">
+                                    <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">
+                                Subject</label>
+                                <select id="subject" name="subject" class="form-control" required="required">
+                                <option value="na" selected="">Choose One:</option>
+                                <option value="service">Questions</option>
+                                <option value="suggestions">Feedback</option>
+                                <option value="product">Complaints</option>
+                            </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="name">
+                                Message</label>
+                                <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required" placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <button type="submit" class="btn btn-primary">
+                            Send Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-4">
+                <form>
+                    <legend>Our "office"</legend>
+                    <address>
+                <strong>Sea Angles</strong><br>
+                Ocean Inlet Park<br>
+                6990 N. Ocean Blvd.<br>
+                Boynton Beach, FL 33435<br>
+                (123) 456-7890
+            </address>
+                    <address>
+                <strong>Email</strong><br>
+                <a href="mailto:#">contact@seaangles.org</a>
+            </address>
+                </form>
+            </div>
         </div>
-        <div class="col-md-5">
-          <h3>Project Two</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, odit velit cumque vero doloremque repellendus distinctio maiores rem expedita a nam vitae modi quidem similique ducimus! Velit, esse totam tempore.</p>
-          <a class="btn btn-primary" href="#">View Project</a>
-        </div>
-      </div>
-      <!-- /.row -->
 
-      <hr>
 
     </div>
     <!-- /.container -->
