@@ -8,7 +8,7 @@ function customPageHeader(){?>
     <div class="container">
         <!-- Page Heading -->
 
-                <h1 class="text-center" id="education">Did You Know?</h1>
+                <h2 class="text-center" id="education">Did You Know?</h2>
                 <h3 class="text-center" id="education2">18,000 pieces of plastic litter are floating on every square mile of the world's oceans. <br> 8 million tons of debris enters the world's oceans every year.  </h3>
                 <p class="text-center"> To quote Sea Shepherd's Captain Paul Watson, "If the Oceans Die, We Die". Awareness begins with education. Take a look at some of the most common sources of litter and how they affect the environment.</p>
                
