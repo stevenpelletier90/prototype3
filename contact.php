@@ -63,7 +63,7 @@ function customPageHeader(){?>
                 <form>
                     <h3>Our Office</h3>
                     <address>
-                        <strong>Sea Angles</strong>
+                        <strong>Sea Angels</strong>
                         <br> Ocean Inlet Park
                         <br> 6990 N. Ocean Blvd.
                         <br> Boynton Beach, FL 33435
