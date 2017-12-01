@@ -141,10 +141,7 @@ Our main goal is simple, provide education and awareness to the seriousness of l
       <hr>
 
 
-      <div class="row">
-        
-      </div>
-
+    <h3 id="education">Sea Angels are the Leaders in Green, Sustainable Cleanups in Florida</h3>
     </div>
     
 
