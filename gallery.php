@@ -7,8 +7,10 @@ function customPageHeader(){?>
     <?php include("includes/navbar.php"); ?>
 
 <style>
-    .gallery-thumb {
-        max-height: 400px;
+    .gallery-thumbnail {
+        overflow: hidden;
+        height: 160px;
+        padding: 10px;
     }
 </style>
 
@@ -18,104 +20,104 @@ function customPageHeader(){?>
         <p>A great way to upcycle litter is to take that trash and turn it into a treasure. A little creativity can go a long way and can be a great way to reuse those things we find so often on the beach such as plastic bottles, caps, plastic cups, straws and other items. See some of the fun stuff you can make while making a difference. Have any questions or suggestions Contact Us
         </p>
         <div class="row text-center text-lg-left">
-            <div title="Image 1" class="col-lg-3 col-md-4 col-xs-6">
+            <div title="Image 1" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
                 <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail gallery-thumb" src="images/artgallery/1.jpg" alt="">
+            <img class="img-fluid img-thumbnail" src="images/artgallery/1.jpg" alt="">
           </a>
             </div>
-            <div title="Image 2" class="col-lg-3 col-md-4 col-xs-6">
+            <div title="Image 2" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
                 <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail gallery-thumb" src="images/artgallery/2.jpg" alt="">
+            <img class="img-fluid img-thumbnail" src="images/artgallery/2.jpg" alt="">
           </a>
             </div>
-            <div title="Image 3" class="col-lg-3 col-md-4 col-xs-6">
+            <div title="Image 3" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
                 <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail gallery-thumb" src="images/artgallery/3.jpg" alt="">
+            <img class="img-fluid img-thumbnail" src="images/artgallery/3.jpg" alt="">
           </a>
             </div>
-            <div title="Image 4" class="col-lg-3 col-md-4 col-xs-6">
+            <div title="Image 4" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
                 <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail gallery-thumb" src="images/artgallery/4.jpg" alt="">
+            <img class="img-fluid img-thumbnail" src="images/artgallery/4.jpg" alt="">
           </a>
             </div>
-            <div title="Image 5" class="col-lg-3 col-md-4 col-xs-6">
+            <div title="Image 5" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
                 <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail gallery-thumb" src="images/artgallery/5.jpg" alt="">
+            <img class="img-fluid img-thumbnail" src="images/artgallery/5.jpg" alt="">
           </a>
             </div>
-            <div title="Image 6" class="col-lg-3 col-md-4 col-xs-6">
+            <div title="Image 6" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
                 <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail gallery-thumb" src="images/artgallery/6.jpg" alt="">
+            <img class="img-fluid img-thumbnail" src="images/artgallery/6.jpg" alt="">
           </a>
             </div>
-            <div title="Image 7" class="col-lg-3 col-md-4 col-xs-6">
+            <div title="Image 7" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
                 <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail gallery-thumb" src="images/artgallery/7.jpg" alt="">
+            <img class="img-fluid img-thumbnail" src="images/artgallery/7.jpg" alt="">
           </a>
             </div>
-            <div title="Image 8" class="col-lg-3 col-md-4 col-xs-6">
+            <div title="Image 8" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
                 <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail gallery-thumb" src="images/artgallery/8.jpg" alt="">
+            <img class="img-fluid img-thumbnail" src="images/artgallery/8.jpg" alt="">
           </a>
             </div>
-            <div title="Image 9" class="col-lg-3 col-md-4 col-xs-6">
+            <div title="Image 9" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
                 <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail gallery-thumb" src="images/artgallery/9.jpg" alt="">
+            <img class="img-fluid img-thumbnail" src="images/artgallery/9.jpg" alt="">
           </a>
             </div>
-            <div title="Image 10" class="col-lg-3 col-md-4 col-xs-6">
+            <div title="Image 10" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
                 <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail gallery-thumb" src="images/artgallery/10.jpg" alt="">
+            <img class="img-fluid img-thumbnail" src="images/artgallery/10.jpg" alt="">
           </a>
             </div>
-            <div title="Image 11" class="col-lg-3 col-md-4 col-xs-6">
+            <div title="Image 11" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
                 <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail gallery-thumb" src="images/artgallery/11.jpg" alt="">
+            <img class="img-fluid img-thumbnail" src="images/artgallery/11.jpg" alt="">
           </a>
             </div>
-            <div title="Image 12" class="col-lg-3 col-md-4 col-xs-6">
+            <div title="Image 12" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
                 <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail gallery-thumb" src="images/artgallery/12.jpg" alt="">
+            <img class="img-fluid img-thumbnail" src="images/artgallery/12.jpg" alt="">
           </a>
             </div>
-            <div title="Image 12" class="col-lg-3 col-md-4 col-xs-6">
+            <div title="Image 12" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
                 <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail gallery-thumb" src="images/artgallery/13.jpg" alt="">
+            <img class="img-fluid img-thumbnail" src="images/artgallery/13.jpg" alt="">
           </a>
             </div>
-            <div title="Image 12" class="col-lg-3 col-md-4 col-xs-6">
+            <div title="Image 12" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
                 <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail gallery-thumb" src="images/artgallery/14.jpg" alt="">
+            <img class="img-fluid img-thumbnail" src="images/artgallery/14.jpg" alt="">
           </a>
             </div>
-            <div title="Image 12" class="col-lg-3 col-md-4 col-xs-6">
+            <div title="Image 12" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
                 <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail gallery-thumb" src="images/artgallery/15.jpg" alt="">
+            <img class="img-fluid img-thumbnail" src="images/artgallery/15.jpg" alt="">
           </a>
             </div>
-            <div title="Image 12" class="col-lg-3 col-md-4 col-xs-6">
+            <div title="Image 12" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
                 <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail gallery-thumb" src="images/artgallery/16.jpg" alt="">
+            <img class="img-fluid img-thumbnail" src="images/artgallery/16.jpg" alt="">
           </a>
             </div>
-            <div title="Image 12" class="col-lg-3 col-md-4 col-xs-6">
+            <div title="Image 12" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
                 <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail gallery-thumb" src="images/artgallery/17.jpg" alt="">
+            <img class="img-fluid img-thumbnail" src="images/artgallery/17.jpg" alt="">
           </a>
             </div>
-            <div title="Image 12" class="col-lg-3 col-md-4 col-xs-6">
+            <div title="Image 12" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
                 <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail gallery-thumb" src="images/artgallery/18.jpg" alt="">
+            <img class="img-fluid img-thumbnail" src="images/artgallery/18.jpg" alt="">
           </a>
             </div>
-            <div title="Image 12" class="col-lg-3 col-md-4 col-xs-6">
+            <div title="Image 12" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
                 <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail gallery-thumb" src="images/artgallery/19.jpg" alt="">
+            <img class="img-fluid img-thumbnail" src="images/artgallery/19.jpg" alt="">
           </a>
             </div>
-            <div title="Image 12" class="col-lg-3 col-md-4 col-xs-6">
+            <div title="Image 12" class="col-lg-3 col-md-4 col-xs-6 gallery-thumbnail">
                 <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail gallery-thumb" src="images/artgallery/20.jpg" alt="">
+            <img class="img-fluid img-thumbnail" src="images/artgallery/20.jpg" alt="">
           </a>
             </div>
         </div>
