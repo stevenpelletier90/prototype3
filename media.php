@@ -27,79 +27,28 @@ function customPageHeader(){?>
     <div class="container">
 
 
-        <p>A picture says a thousand words.  How about a video?  Check out our videos to see why we do what we do and who we do it for.​</p> 
+        <p>A picture says a thousand words. How about a video? Check out our videos to see why we do what we do and who we do it for.​</p> 
 
 
 <hr>
 
+<div class="row">
 
-      <div class="row text-center text-lg-left">
 
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <div class="embed-responsive embed-responsive-4by3">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=oazBqFnniB8"></iframe>
+<div class="col-lg-6">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oazBqFnniB8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-      </div>
+<div class="col-lg-6">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/engUyP0P8dA" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+</div>
+<div class="col-lg-12">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5_thBXlCaYU" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
 
-        
-        
-    </div>
+
+</div>
   
 
 
