@@ -14,7 +14,7 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="about.php">About Sea Angels</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="media.php">Videos</a>
+                    <a class="dropdown-item" href="media.php">Videos and Media</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="gallery.php">Gallery</a>
                 </div>
