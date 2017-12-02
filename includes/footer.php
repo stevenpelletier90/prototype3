@@ -7,11 +7,11 @@
                     <div class="footer-items">
                         <h4 style="color:white;">NAVIGATION</h4>
                         <ul class="list " style="list-style-type:none;">
-                            <li class="list-item"><a href="index.php">Home</a></li>
-                            <li><a href="calendar.php">Schedule</a></li>
-                            <li><a href="about.php">About</a></li>
-                            <li><a href="education.php">Education</a></li>
-                            <li><a href="contact.php">Contact Us</a></li>
+                            <li><a href="index.php" style="color: #fff;">Home</a></li>
+                            <li><a href="calendar.php" style="color: #fff;">Schedule</a></li>
+                            <li><a href="about.php" style="color: #fff;">About</a></li>
+                            <li><a href="education.php" style="color: #fff;">Education</a></li>
+                            <li><a href="contact.php" style="color: #fff;">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>

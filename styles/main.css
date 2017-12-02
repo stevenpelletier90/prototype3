@@ -224,18 +224,16 @@ hr.style1 {
 }
 
 
-.cardtitle {}
+
 
 #contactbubble {
     text-align: center;
-    background-color: #e5e7e8;
+    background-color: #31CBCD;
     margin-top: 80px;
     border-style: solid #e5e7e8;
     padding: 10px 20px 30px 20px;
     border-radius: 30px;
 }
-
-a.footer-items {}
 
 
 #galleryjumbotron {
@@ -258,7 +256,11 @@ a.footer-items {}
 }
 
 
-#about2 {}
+#about2 {
+
+    font-size: 60px;
+
+}
 
 #about2 img {
 
@@ -270,8 +272,17 @@ a.footer-items {}
     padding-top: 50px;
 }
 
+#about4 {
+    font-size: 50px;
+    color: #FFD000FF;
+}
+
 .gallery-thumbnail {
     overflow: hidden;
     height: 160px;
     padding: 10px;
+}
+
+.list-item {
+    color:  #fff;
 }
