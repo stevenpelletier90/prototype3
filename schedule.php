@@ -7,7 +7,7 @@ function customPageHeader(){?>
 <?php include("includes/navbar.php"); ?>
 
 <div class="container">
-  <h1 class="my-4">Upcoming Events</h1>
+  <h1 class="my-4 text-center">Upcoming Events</h1>
   <hr>
   <div class="row calendarinfo container-fluid">
     <div class="col-sm-10" style="float: none; margin: 0 auto; width:100vw; background-color:#e5e5e5; border-style: solid; border-radius: 5px; border-color:#e5e5e5; padding:10px; 15px 10px 15px;">
